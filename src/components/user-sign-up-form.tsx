@@ -72,7 +72,7 @@ const UserSignUpForm = () => {
 
     if (response.ok) {
       setIsLoading(false)
-      router.push("/login");
+      router.push("/sign-in");
     } else {
       console.error("Registration failed");
     }

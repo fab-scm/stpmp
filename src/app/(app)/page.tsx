@@ -11,6 +11,7 @@ export default function IndexPage() {
               alt="Satellite image"
               className="static object-cover w-full h-full rounded-3xl"
               // fill={true}
+              priority={true}
               width={7292}
               height={7292}
             />
@@ -27,6 +28,7 @@ export default function IndexPage() {
               alt="Satellite image"
               className="static object-cover w-full h-full rounded-3xl"
               // fill={true}
+              priority={true}
               width={5000}
               height={5000}
             />
@@ -41,6 +43,7 @@ export default function IndexPage() {
               alt="Satellite image"
               className="static object-cover w-full h-full rounded-3xl"
               // fill={true}
+              priority={true}
               width={2468}
               height={2640}
             />

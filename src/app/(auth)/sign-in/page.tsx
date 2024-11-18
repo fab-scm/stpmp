@@ -55,10 +55,10 @@ export default function AuthenticationPage() {
             <p className="px-8 text-center text-sm text-muted-foreground">
               You don&apos;t have an account?{" "}
               <Link
-                href="/register"
+                href="/sign-up"
                 className="underline underline-offset-4 hover:text-primary"
               >
-                Sign Up here
+                Sign up here
               </Link>{" "}
               .
             </p>
